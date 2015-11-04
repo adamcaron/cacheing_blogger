@@ -1,3 +1,5 @@
+<% cache @article do %>
+
 <h1><%= @article.title %></h1>
 <h4>Published <%= @article.created_at %></h4>
 <p class='tag_list'><em>Tagged:</em> <%= @article.tag_list %></p>
@@ -37,4 +39,6 @@
     </p>
     <%= f.hidden_field :article_id%>
     <%= f.submit "Save", :id => 'post_comment' %>
+<% end %>
+
 <% end %>
