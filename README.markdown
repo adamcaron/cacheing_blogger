@@ -1,3 +1,8 @@
+# Advanced Cacheing Strategies
+
+refer to https://github.com/turingschool/curriculum/blob/master/source/topics/performance/digest_based_caching.markdown
+and http://tutorials.jumpstartlab.com/topics/performance/digest_based_caching.html
+
 # Blogger Advanced
 
 This is a sample project for use with the tutorials at http://tutorials.jumpstartlab.com
